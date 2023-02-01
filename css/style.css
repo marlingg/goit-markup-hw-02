@@ -2,3 +2,10 @@ body{
 font-family: 'Roboto', sans-serif;
 color: black;
 }
+.order_service{
+    color:white;
+    background-color: #4D5AE5;
+}
+.order_service:hover{
+    background-color: #404BBF;
+}
