@@ -2,10 +2,42 @@ body{
 font-family: 'Roboto', sans-serif;
 color: black;
 }
+
+button{
+    cursor: pointer;
+}
 .order_service{
     color:white;
     background-color: #4D5AE5;
+   
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border: none;
 }
 .order_service:hover{
     background-color: #404BBF;
+}
+.main_title{
+    color: white;
+}
+.contacts{
+    color: #434455;
+}
+.contacts:hover {
+color: #404BBF;
+}
+.head_nav{
+    color: #2E2F42;
+}
+.head_nav:hover{
+    color: #404BBF;
+}
+.main_button{
+    background: #F4F4FD;
+    color: #404BBF;
+border: none;
+}
+.main_button:hover{
+    background: #404BBF;
+    color: #F4F4FD;
 }
