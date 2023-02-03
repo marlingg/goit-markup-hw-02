@@ -1,43 +1,147 @@
-body{
-font-family: 'Roboto', sans-serif;
-color: black;
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
 }
-
-button{
-    cursor: pointer;
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text);
 }
-.order_service{
-    color:white;
-    background-color: #4D5AE5;
-   
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-        border: none;
+ul {
+  list-style-type: none;
 }
-.order_service:hover{
-    background-color: #404BBF;
+button {
+  cursor: pointer;
 }
-.main_title{
-    color: white;
-}
-.contacts{
-    color: #434455;
+.contacts {
+  color: var(--dark);
 }
 .contacts:hover {
-color: #404BBF;
+  color: var(--pressed-state);
 }
-.head_nav{
-    color: #2E2F42;
+.head_nav {
+  color: var(--dark);
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
-.head_nav:hover{
-    color: #404BBF;
+.head_nav:hover {
+  color: var(--primary-state);
 }
-.main_button{
-    background: #F4F4FD;
-    color: #404BBF;
-border: none;
+.main_button {
+  background: var(--light);
+  color: var(--pressed-state);
+  border: none;
 }
-.main_button:hover{
-    background: #404BBF;
-    color: #F4F4FD;
+.main_button:hover {
+  background: var(--pressed-state);
+  color: var(--light);
+}
+.logo_header {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-brand);
+}
+.logo_header_span {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark);
+}
+.order_service {
+  color: white;
+  background-color: var(--primary-brand);
+
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+.order_service:hover {
+  background-color: var(--pressed-state);
+}
+.first_title {
+  color: white;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.first_section {
+  background: var(--hero-background);
+}
+.footer {
+  background: var(--modal-overlay);
+}
+.second_text {
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.second_title {
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.thirt_title {
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.four_section {
+  background: var(--light);
+}
+.four_title {
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+}
+.four_team_name {
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.four_profesion {
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.logo_footer {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
+}
+.logo_footer_span {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--light);
+}
+
+.portfolio_title {
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.portfolio_text {
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
