@@ -20,15 +20,24 @@ ul {
 button {
   cursor: pointer;
 }
+a{
+  text-decoration: none;
+}
 .contacts {
   color: var(--dark);
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5px;
+font-style: normal;
 }
 .contacts:hover {
   color: var(--pressed-state);
 }
 .head_nav {
   color: var(--dark);
-  line-height: 24px;
+font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
   letter-spacing: 0.02em;
 }
 .head_nav:hover {
@@ -38,21 +47,30 @@ button {
   background: var(--light);
   color: var(--pressed-state);
   border: none;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+    align-items: center;
+    letter-spacing: 0.04em;
+  
 }
 .main_button:hover {
   background: var(--pressed-state);
   color: var(--light);
 }
 .logo_header {
-  display: flex;
+font-size: 18px;
+  line-height: 1.4px;
+ 
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--primary-brand);
 }
 .logo_header_span {
-  display: flex;
+  
+font-size: 18px;
+  line-height: 1.4px;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -61,19 +79,29 @@ button {
 .order_service {
   color: white;
   background-color: var(--primary-brand);
-
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+  
+    color: #FFFFFF;
 }
 .order_service:hover {
   background-color: var(--pressed-state);
 }
 .first_title {
-  color: white;
-  line-height: 60px;
+font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1px;
   text-align: center;
   letter-spacing: 0.02em;
+  color:#fff;
 }
 .first_section {
   background: var(--hero-background);
@@ -82,17 +110,23 @@ button {
   background: var(--modal-overlay);
 }
 .second_text {
-  line-height: 24px;
-  letter-spacing: 0.02em;
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
   color: var(--text);
 }
 .second_title {
+  font-weight: 500;
+    font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
 .thirt_title {
-  line-height: 40px;
+  font-weight: 700;
+    font-size: 36px;
+  line-height: 1.1px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -101,47 +135,60 @@ button {
   background: var(--light);
 }
 .four_title {
-  line-height: 40px;
+  font-weight: 700;
+    font-size: 36px;
+  line-height: 1.1px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark);
 }
 .four_team_name {
-  line-height: 24px;
+  font-weight: 500;
+    font-size: 20px;
+  line-height: 1.2px;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
 .four_profesion {
-  line-height: 24px;
+  font-weight: 400;
+    font-size: 16px;
+  line-height: 1.5px;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text);
 }
 .logo_footer {
-  display: flex;
+ 
+font-size: 18px;
+  line-height: 1.4px;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
 }
 .logo_footer_span {
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 
+  font-size: 18px;
+    line-height: 1.4px;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
   color: var(--light);
 }
 
 .portfolio_title {
-  line-height: 24px;
+  font-weight: 500;
+    font-size: 20px;
+  line-height: 1.2px;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
 .portfolio_text {
-  line-height: 24px;
+font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px;
   letter-spacing: 0.02em;
   color: var(--text);
 }
